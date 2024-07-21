@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator || Free</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="heading">
+            <h1>BMI Calculator</h1>
+            <p><strong>Why BMI is in control important:  </strong> BMI is an estimate of
+                 body fat and a good gauge of your risk for diseases that can occur with more
+                  body fat. The higher your BMI, the higher your risk for certain diseases such as 
+                  heart disease, high blood pressure, type 2 diabetes, gallstones, breathing problems, 
+                  and certain cancers.
+            </p>
+        </div>
+        <div class="section">
+            <div class="section-form">
+                <form action="#">
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" class="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="height">Height in CM: </label>
+                        <input type="number" class="height" id="height" required>
+                    </div>
+                    <div>
+                        <label for="weight">Weight in KG: </label>
+                        <input type="number" class="weight" id="weight" required>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Calculate</button>
+                    </div>
+                    <div class="result">
+                    </div>
+                </form>
+            </div>
+            <div class="section-image">
+                <img src="BmiImage.jpg" alt="" height="340" width="600">
+            </div>
+        </div>
+        <div class="note">
+            <h1>BMI Weight Guide</h1>
+            <ul class="guide">
+                <li class="range">Under weight = Less than 18.6</li>
+                <li class="range">Normal Range = 18.6 to 24.9</li>
+                <li class="range">Over Weight = Greater than 24.9</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
